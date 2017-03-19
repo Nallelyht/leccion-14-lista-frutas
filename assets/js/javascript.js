@@ -1,4 +1,4 @@
-alert("hola");
+
 function agregarFruta()
 {
     var nuevaFruta=document.getElementById("nuevaFruta").value;
