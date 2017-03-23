@@ -9,4 +9,11 @@ function agregarFruta(){
       document.getElementById("listaOrdenada").appendChild(fruta);
     }
     return false;
-}
+};
+function eliminarFruta() {
+    var fruta = document.getElementById("listaOrdenada");
+    var largoFruta = document.getElementsByTagName('li').length;
+    largoFruta--
+    fruta.removeChild(fruta.childNodes[largoFruta]);
+    console.log(largoFruta);
+};

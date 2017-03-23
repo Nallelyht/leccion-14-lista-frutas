@@ -16,14 +16,15 @@
       <p><b>Catálogo: </b></p>
       </p>
       <ol id="listaOrdenada">
-        <li>Manzana</li>
-        <li>Pera</li>
-        <li>Piña</li>
+        <li id="Manzana">Manzana</li>
+        <li id="Pera">Pera</li>
+        <li id="Piña">Piña</li>
       </ol>
     <form>
       <input type="text" id="nuevaFruta">
-      <br><input type="submit" onclick="return agregarFruta()" value="añadir fruta">
+      <br><input type="button" onclick="return agregarFruta()" value="Añadir Fruta">
+      <input type="button" onclick="eliminarFruta();" value="Eliminar Fruta"/>
     </form>
-  </dir>
+    </dir>
   </body>
 </html>
